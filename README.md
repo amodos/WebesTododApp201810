@@ -2,7 +2,9 @@
 A Netacademia Webes TodoApp Tanfolyama
 
 ## A tanfolyam célja:
-```                                          +--------------------------------+
+```  
+                                             
+                                             +--------------------------------+
                                              |                                |
                                              |       Desktop számítógép       |
 +--------------------+                       |    +------------------------+  |
@@ -15,6 +17,7 @@ A Netacademia Webes TodoApp Tanfolyama
 +--------------------+                       |                                |
                                              +--------------------------------+
             Hagyományos Desktop/Mobil alkamazásfejlesztés
+```
 ```
                                                                                 +-------------------------------------+
                                                                                 |                                     |
