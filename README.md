@@ -17,6 +17,7 @@ A Netacademia Webes TodoApp Tanfolyama
                                              +--------------------------------+
             Hagyományos Desktop/Mobil alkamazásfejlesztés
 ```
+```
                                                                                 +-------------------------------------+
                                                                                 |                                     |
                                  +--------------------------------+ Hálózati    |   Szerver számítógép                |
@@ -43,4 +44,10 @@ A Netacademia Webes TodoApp Tanfolyama
                                                HTML                    HTTP                       +
                                                                                                  MVC
                                                        Webes Alkalmazásfejlesztés
+```
+
+## Ajánlot tanfolyam
+```
+Fen van a honlapon :D
+
 ```
