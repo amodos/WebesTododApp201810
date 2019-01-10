@@ -1,30 +1,29 @@
 # WebesTododApp201810
 A Netacademia Webes TodoApp Tanfolyama
 
-## A tanfolyam cÈlja:
-```                                         
-										     +--------------------------------+
+## A tanfolyam c√©lja:
+```                                          +--------------------------------+
                                              |                                |
-                                             |       Desktop sz·mÌtÛgÈp       |
+                                             |       Desktop sz√°m√≠t√≥g√©p       |
 +--------------------+                       |    +------------------------+  |
-|                    |                       |    | Alkalmaz·s             |  |
+|                    |                       |    | Alkalmaz√°s             |  |
 |                    |                       |    |                        |  |
-|    Felhaszn·lÛ     |                       |    +------------------------+  |
+|    Felhaszn√°l√≥     |                       |    +------------------------+  |
 |                    |                       |                                |
 |                    |                       |                                |
 |                    |                       |                                |
 +--------------------+                       |                                |
                                              +--------------------------------+
-            Hagyom·nyos Desktop/Mobil alkamaz·sfejlesztÈs
+            Hagyom√°nyos Desktop/Mobil alkamaz√°sfejleszt√©s
 ```
                                                                                 +-------------------------------------+
                                                                                 |                                     |
-                                 +--------------------------------+ H·lÛzati    |   Szerver sz·mÌtÛgÈp                |
-                                 |        Desktop sz·mÌtÛgÈp      | Kapcsolat   |                                     |
-+--------------------+           |           Mobil eszkˆz         |             |   +--------------------------+      |
+                                 +--------------------------------+ H√°l√≥zati    |   Szerver sz√°m√≠t√≥g√©p                |
+                                 |        Desktop sz√°m√≠t√≥g√©p      | Kapcsolat   |                                     |
++--------------------+           |           Mobil eszk√∂z         |             |   +--------------------------+      |
 |                    |           |    +------------------------+  +-----------> |   |                          |      |
-|                    |           |    |        Alkalmaz·s      |  |             |   |Szerver alkalmaz·s        |      |
-|    Felhaszn·lÛ     |           |    |        (BˆngÈszı)      |  |             |   |(Web szerveren futÛ app)  |      |
+|                    |           |    |        Alkalmaz√°s      |  |             |   |Szerver alkalmaz√°s        |      |
+|    Felhaszn√°l√≥     |           |    |        (B√∂ng√©sz≈ë)      |  |             |   |(Web szerveren fut√≥ app)  |      |
 |                    |           |    +------------------------+  | <-----------+   |                          |      |
 |                    |           |                                |             |   +--------------------------+      |
 |                    |           |                                |      ^      |                                     |
@@ -42,5 +41,5 @@ A Netacademia Webes TodoApp Tanfolyama
                                                  +                       +                        |
                                                HTML                    HTTP                       +
                                                                                                  MVC
-                                                       Webes Alkalmaz·sfejlesztÈs
+                                                       Webes Alkalmaz√°sfejleszt√©s
 ```
