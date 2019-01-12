@@ -1,31 +1,32 @@
 # WebesTododApp201810
 A Netacademia Webes TodoApp Tanfolyama
 
-## A tanfolyam cÈlja:
-```                                         
-										     +--------------------------------+
+## A tanfolyam c√©lja:
+```  
+                                             
+                                             +--------------------------------+
                                              |                                |
-                                             |       Desktop sz·mÌtÛgÈp       |
+                                             |       Desktop sz√°m√≠t√≥g√©p       |
 +--------------------+                       |    +------------------------+  |
-|                    |                       |    | Alkalmaz·s             |  |
+|                    |                       |    | Alkalmaz√°s             |  |
 |                    |                       |    |                        |  |
-|    Felhaszn·lÛ     |                       |    +------------------------+  |
+|    Felhaszn√°l√≥     |                       |    +------------------------+  |
 |                    |                       |                                |
 |                    |                       |                                |
 |                    |                       |                                |
 +--------------------+                       |                                |
                                              +--------------------------------+
-            Hagyom·nyos Desktop/Mobil alkamaz·sfejlesztÈs
+            Hagyom√°nyos Desktop/Mobil alkamaz√°sfejleszt√©s
 ```
 ```
                                                                                 +-------------------------------------+
                                                                                 |                                     |
-                                 +--------------------------------+ H·lÛzati    |   Szerver sz·mÌtÛgÈp                |
-                                 |        Desktop sz·mÌtÛgÈp      | Kapcsolat   |                                     |
-+--------------------+           |           Mobil eszkˆz         |             |   +--------------------------+      |
+                                 +--------------------------------+ H√°l√≥zati    |   Szerver sz√°m√≠t√≥g√©p                |
+                                 |        Desktop sz√°m√≠t√≥g√©p      | Kapcsolat   |                                     |
++--------------------+           |           Mobil eszk√∂z         |             |   +--------------------------+      |
 |                    |           |    +------------------------+  +-----------> |   |                          |      |
-|                    |           |    |        Alkalmaz·s      |  |             |   |Szerver alkalmaz·s        |      |
-|    Felhaszn·lÛ     |           |    |        (BˆngÈszı)      |  |             |   |(Web szerveren futÛ app)  |      |
+|                    |           |    |        Alkalmaz√°s      |  |             |   |Szerver alkalmaz√°s        |      |
+|    Felhaszn√°l√≥     |           |    |        (B√∂ng√©sz≈ë)      |  |             |   |(Web szerveren fut√≥ app)  |      |
 |                    |           |    +------------------------+  | <-----------+   |                          |      |
 |                    |           |                                |             |   +--------------------------+      |
 |                    |           |                                |      ^      |                                     |
@@ -43,17 +44,5 @@ A Netacademia Webes TodoApp Tanfolyama
                                                  +                       +                        |
                                                HTML                    HTTP                       +
                                                                                                  MVC
-                                                       Webes Alkalmaz·sfejlesztÈs
+                                                       Webes Alkalmaz√°sfejleszt√©s
 ```
-
-## Aj·nlot tanfolyam
-
-Fen van a honlapon :D
-
-
-## Az elsı webes alkalmaz·sunk lÈtrehoza
-Mivela  a kˆrnyezet Ès a fejlesztÈsi munkafolyamat az ilyen tÌpus˙ fejlesztÈseknÈl ˆsszetett, Ìgy nem kÈzzel hozzuk lÈtre, hanem a Visual Studio segÌtcsÈgÈvel.
-
-A var·zslÛval lÈtre hozzzuk az ASP.NET MVC Webalkalmaz·st (.NET framework),
-
-
