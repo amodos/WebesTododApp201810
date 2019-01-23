@@ -82,5 +82,9 @@ Részletek a [wikipédián](https://en.wikipedia.org/wiki/Hypertext_Transfer_Pro
 
 ### MVC: Dinamikus weblapokból készített webalkalmazás
 Ha nem statikus lapok egymásutánját szeretnénk megjelenitenni, hanem 
-- egy jól
+- egy jól kinéző formátumot meghatározni az összes oldalra
+- saját adatokat mentenni a webolda megfelelő helyére
+- az alkalmazás interakcijóját megswzervezni
+
+Az egy szép feladat, erre szolgál az ASP.NET MVC
 
