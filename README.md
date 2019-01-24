@@ -147,6 +147,12 @@ Például: a home controller nézetei a Views\Home mappában vannak
 
 Megjedzés : azt a konvekciót megtörhetjük, ki is jelölhetünk egy Action-höz egy meghatározott View-t
 
+A nézet képes definiálni az adatmodell típusát,amin dolgozik
+
+-MVC:Mode-View-Controller
+	-Model
+	Az adatokat tartalmazó objektum ami, a Controller és a View Között az adatokat szállítja
 
 
+	
 

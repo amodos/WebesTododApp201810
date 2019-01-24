@@ -1,4 +1,4 @@
-﻿@model List<string>
+﻿@model List<TodoApp.Models.TodoItem>
 
 
 K@*iegészíttetük a View definicióját, hogy képes legyen List<string> típusu adatot fogadni
@@ -18,9 +18,17 @@ K@*iegészíttetük a View definicióját, hogy képes legyen List<string> típu
 @*A megoldás, hogy egy ciklussal kiolvassuk a listából az adatokat és úgy irjuk a HTML*@
 
 <ol>
-    @foreach (var elem in Model)
+    @foreach (var todoItem in Model)
     {
-        <li>@elem</li>
+
+        if (todoItem.Done)
+        {
+        <li><strike>@todoItem.Name</strike> </li>
+        }
+        else
+        {
+        <li>@todoItem.Name </li>
+        }
     }
 
 
