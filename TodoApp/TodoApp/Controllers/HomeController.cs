@@ -37,12 +37,12 @@ namespace TodoApp.Controllers
             lista.Add("Marhahús");
             lista.Add("Paradicsom");
 
-            // a Viewbag -be tett adatokat a nézeteb ki tudjuk olvasni
-            // Figyelem az erősen tipusos védelmet itt elveszítjük.
-            ViewBag.Lista = lista;
+            //a Viewbag -be tett adatokat a nézeteb ki tudjuk olvasni
+            //Figyelem az erősen tipusos védelmet itt elveszítjük.
+            //ViewBag.Lista = lista;
 
 
-            return View();
+            return View(lista);
 
         }
     }

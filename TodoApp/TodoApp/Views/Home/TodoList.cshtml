@@ -1,4 +1,12 @@
-﻿
+﻿@model List<string>
+
+
+K@*iegészíttetük a View definicióját, hogy képes legyen List<string> típusu adatot fogadni
+    mintha  aviev egy fügvény  lenne és azt mondanánk , 
+     hogy View(List<steing> Model) 
+     vagy TodoList<List<string>Model*@
+
+
 @{
     ViewBag.Title = "TodoList";
 }
@@ -10,7 +18,7 @@
 @*A megoldás, hogy egy ciklussal kiolvassuk a listából az adatokat és úgy irjuk a HTML*@
 
 <ol>
-    @foreach (var elem in ViewBag.Lista)
+    @foreach (var elem in Model)
     {
         <li>@elem</li>
     }
