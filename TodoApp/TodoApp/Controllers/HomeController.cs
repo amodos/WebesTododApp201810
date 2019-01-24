@@ -26,5 +26,24 @@ namespace TodoApp.Controllers
 
             return View();
         }
+
+        public ActionResult TodoList()
+        {
+            // bevásárló lista adatai Só,Cukor,Spagetti,Marhahús,Paradicsom
+            var lista = new List<string>();
+            lista.Add("Só");
+            lista.Add("Cukor");
+            lista.Add("Spagetti");
+            lista.Add("Marhahús");
+            lista.Add("Paradicsom");
+
+            // a Viewbag -be tett adatokat a nézeteb ki tudjuk olvasni
+            // Figyelem az erősen tipusos védelmet itt elveszítjük.
+            ViewBag.Lista = lista;
+
+
+            return View();
+
+        }
     }
 }
