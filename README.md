@@ -191,3 +191,16 @@ Egy rövide képernyő skicc, specifikációhoz:
 
 A controller átekintő nézette az Index, innen is kaptam a nevét. Vagyis a mi kezdeti átekintő nézetünk, az Index actonre kel kerüljön innen következik hogy átnevezük a mostanit	
 
+### Feladatok
+- indexre beviteli mező felvittele és programozása ( majd elötte)
+ - [] beviteli oldal léátrehozása
+		Ahhoz, hogy adatokat küldjünk a böngészőből a szerver felé, kell
+		- Kell egy űrlap `<from></from>`
+		- Kell egy `<input />` aminek van neve (`<input name="valami megbevezés"/>`)
+		- kell egy gomb ( `<input type="submit" />` vagy `<button></button>`)
+		Ha ez mind megvan, akkor a böngésző a beviteli mező tartamát beteszi a hívás paraméterei közé.
+ - [x] beviteli oldal elérhetővé tétele az indexen oldalon (link formájában: Todo/Create)
+		linkek setén használható a ralatív cím fogalma : /Todo/Create
+		vagy használhatjuk a beépített megoldást: ActionLink
+ - [] Teszt adatok , amik kérések között is megmaradnak
+ - [] indexre a beviteli mező tétele és a bevitel programozása

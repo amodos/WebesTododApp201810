@@ -13,13 +13,7 @@ namespace TodoApp.Controllers
         public ActionResult Index()
         {
             // bevásárló lista adatai Só,Cukor,Spagetti,Marhahús,Paradicsom
-            var lista = new List<TodoItem>();
-            lista.Add(new TodoItem() { Name = "Só", Done = true });
-            lista.Add(new TodoItem() { Name = "Cukor", Done = true });
-
-            lista.Add(new TodoItem() { Name = "Spagetti", Done = true });
-            lista.Add(new TodoItem() { Name = "Marhahús", Done = false });
-            lista.Add(new TodoItem() { Name = "Paradicsom", Done = false });
+           
 
 
 
@@ -29,8 +23,18 @@ namespace TodoApp.Controllers
             //ViewBag.Lista = lista;
 
 
-            return View(lista);
+            return View(MyDb.Lista);
 
+        }
+        public ActionResult Create(string Name)
+        {
+            if (!string.IsNullOrEmpty(Name))
+            {
+                MyDb.Lista.Add(new TodoItem() { Name = Name, Done = true });
+
+                return RedirectToAction("Index");
+            }
+            return View();
         }
     }
 }

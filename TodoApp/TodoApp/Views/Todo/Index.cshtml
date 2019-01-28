@@ -2,8 +2,8 @@
 
 
 K@*iegészíttetük a View definicióját, hogy képes legyen List<string> típusu adatot fogadni
-    mintha  aviev egy fügvény  lenne és azt mondanánk , 
-     hogy View(List<steing> Model) 
+    mintha  aviev egy fügvény  lenne és azt mondanánk ,
+     hogy View(List<steing> Model)
      vagy TodoList<List<string>Model*@
 
 
@@ -23,15 +23,20 @@ K@*iegészíttetük a View definicióját, hogy képes legyen List<string> típu
 
         if (todoItem.Done)
         {
-        <li><strike>@todoItem.Name</strike> </li>
+            <li><strike>@todoItem.Name</strike> </li>
         }
         else
         {
-        <li>@todoItem.Name </li>
+            <li>@todoItem.Name </li>
         }
     }
 
 
 
-
 </ol>
+
+@*Mindkét két megoldás ugyan oda visz, a második a beépített ASP.NET
+    szolgáltatás, nem kell megadni a Controller, mert tudja hol vagyunk*@ 
+
+<a href="/Todo/Create">Új felvittel</a>
+@Html.ActionLink("Új felvitele", "Create")
