@@ -153,6 +153,41 @@ A nézet képes definiálni az adatmodell típusát,amin dolgozik
 	-Model
 	Az adatokat tartalmazó objektum ami, a Controller és a View Között az adatokat szállítja
 
+## Az alkamazásból CRUD alkalmazás készítése a Todo elemekre
+CRUD: **C**reate, **R**ead, **U**pdate, **D**elete kifejezések röviditése 
 
-	
+Egy rövide képernyő skicc, specifikációhoz:
+```
++----------------------------------------+
+|                                        |
+|    +-------------------------------+   |
+|    |elem 1       módosítás Törlés  |   |
+|    +-------------------------------+   |
+|    |elem 2       Módosítás Törlés  |   |
+|    +-------------------------------+   |
+|    |elem 3       Módosítás Törlés  | <----------------------------------+
+|    +-------------------------------+   |                                |
+|    |                               |   |                                +Műveletek kezdeményezéssére
+|    +-------------------------------+   |                                 szolgáló elemek, amivel a
+|    |                               |   |                                 felhasználó kezdeményezni
+|    +-------------------------------+   |                                 tudja az adott műveleteket
+|    |                               |   |                                 (link, gomb, stb...)
+|    +-------------------------------+   |                                +
+|    |                               |   |                                |
+|    +-------------------------------+   |                                |
+|                                        |                                |
+|                                        |                                |
+|                                        |                                |
+|                                        |                                |
+|                                        |                                |
+|                                        |                                |
+|                                        |                                |
+|  +----------------+  +--------------+  |                                |
+|  | beviteli mező  |  | rögzités     | <---------------------------------+
+|  +----------------+  +--------------+  |
++----------------------------------------+
+
+```
+
+A controller átekintő nézette az Index, innen is kaptam a nevét. Vagyis a mi kezdeti átekintő nézetünk, az Index actonre kel kerüljön innen következik hogy átnevezük a mostanit	
 
