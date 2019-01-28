@@ -193,7 +193,7 @@ A controller átekintő nézette az Index, innen is kaptam a nevét. Vagyis a mi
 
 ### Feladatok
 - indexre beviteli mező felvittele és programozása ( majd elötte)
- - [] beviteli oldal léátrehozása
+ - [x] beviteli oldal léátrehozása
 		Ahhoz, hogy adatokat küldjünk a böngészőből a szerver felé, kell
 		- Kell egy űrlap `<from></from>`
 		- Kell egy `<input />` aminek van neve (`<input name="valami megbevezés"/>`)
@@ -202,5 +202,12 @@ A controller átekintő nézette az Index, innen is kaptam a nevét. Vagyis a mi
  - [x] beviteli oldal elérhetővé tétele az indexen oldalon (link formájában: Todo/Create)
 		linkek setén használható a ralatív cím fogalma : /Todo/Create
 		vagy használhatjuk a beépített megoldást: ActionLink
- - [] Teszt adatok , amik kérések között is megmaradnak
+ - [x] Teszt adatok , amik kérések között is megmaradnak
+ - [x] Adatbevitel programozása POST segítségével 
+		Post esetén az adatok Form paraméterként érkeznek:
+
+		Amit a Model Binder segítségévelugyanúgy ugyan úgy fügvény paraméterként tudunk kezelni
+ 
+
+
  - [] indexre a beviteli mező tétele és a bevitel programozása

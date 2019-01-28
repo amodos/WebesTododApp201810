@@ -26,6 +26,12 @@ namespace TodoApp.Controllers
             return View(MyDb.Lista);
 
         }
+        [HttpGet] // a routing innentől csak a GET kérésekre esetén irányítja ide
+        public ActionResult Create()
+        {
+            return View();
+                }
+        [HttpPost] // a routing innentől csak a POST kérésekre esetén irányítja ide
         public ActionResult Create(string Name)
         {
             if (!string.IsNullOrEmpty(Name))
@@ -34,6 +40,9 @@ namespace TodoApp.Controllers
 
                 return RedirectToAction("Index");
             }
+
+            
+            //todo mivel az adatok nem validak itt kéne a hibaüzenettel valamit kezdeni
             return View();
         }
     }
