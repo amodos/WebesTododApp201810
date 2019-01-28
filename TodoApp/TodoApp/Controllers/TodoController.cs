@@ -32,11 +32,11 @@ namespace TodoApp.Controllers
             return View();
                 }
         [HttpPost] // a routing innentől csak a POST kérésekre esetén irányítja ide
-        public ActionResult Create(string Name)
+        public ActionResult Create(string name, bool isDone)
         {
-            if (!string.IsNullOrEmpty(Name))
+            if (!string.IsNullOrEmpty(name))
             {
-                MyDb.Lista.Add(new TodoItem() { Name = Name, Done = true });
+                MyDb.Lista.Add(new TodoItem() { Name = name, Done = isDone });
 
                 return RedirectToAction("Index");
             }
